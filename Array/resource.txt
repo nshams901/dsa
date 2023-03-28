@@ -1,0 +1,8 @@
+1. Array Data Structure:-
+https://www.scaler.com/topics/data-structures/array-data-structure/
+
+2. C++ Arrays
+https://www.programiz.com/cpp-programming/arrays
+
+3. Find array length in C++
+https://www.digitalocean.com/community/tutorials/find-array-length-in-c-plus-plus
