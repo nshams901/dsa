@@ -16,3 +16,8 @@ int main(){
     int arr[20] = {1,2,3,4,5,6,7,};
     cout << linearSearch(arr, 7, 3);
 }
+// Notes :
+// -> Time complexity: O(N)
+
+// Next :-
+//  improving linear search

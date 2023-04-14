@@ -2,15 +2,22 @@
 #include <array>
 using namespace std;
 
-void getLength(int x[]){
-     cout<< sizeof(x);
-    //  for(int i = 0; i < 5; i++){
-    //     cout<< x[i];
-    //  };
-};
+void printArray(int x[], int size){
+    for(int i = 0; i < size; i++){
+        cout << x[i] << " ";
+    }
+}
 int main(){
-    int a[5] = { 1, 2, 3, 7};
+    int a[10] = { 1, 8, 9, 5, 3, 5, 0, 4, 12, 11};
 
-    getLength(a);
-    // cout<< sizeof(a)/ sizeof(a[0]);
+    for (int i = 0; i < 10; i++){
+        for( int j = 0; j < 10 - i -1; j++){
+            if(a[j] > a[j + 1]){
+                int temp = a[j];
+                a[j] = a[j + 1];
+                a[j+1] = temp;
+            }
+        }
+    }
+    printArray(a, 10);
 }

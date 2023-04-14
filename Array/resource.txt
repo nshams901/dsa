@@ -6,3 +6,6 @@ https://www.programiz.com/cpp-programming/arrays
 
 3. Find array length in C++
 https://www.digitalocean.com/community/tutorials/find-array-length-in-c-plus-plus
+
+4. Linear search
+https://www.geeksforgeeks.org/linear-search/
