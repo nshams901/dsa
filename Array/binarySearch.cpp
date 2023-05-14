@@ -43,3 +43,12 @@ int main()
     // printArray(a, 6);
     return 0;
 }
+
+
+// ------------------------- NOTES --------------------------
+
+// To apply binary search in any data structure, the data structure must maintain the following properties :
+//    -> The data structure must be sorted.
+//    -> Access to any element of the data structure takes constant time.
+
+// Time complexity of binary search is: O(log(n)). 

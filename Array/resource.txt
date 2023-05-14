@@ -9,3 +9,6 @@ https://www.digitalocean.com/community/tutorials/find-array-length-in-c-plus-plu
 
 4. Linear search
 https://www.geeksforgeeks.org/linear-search/
+
+5. 2D Array
+https://www.digitalocean.com/community/tutorials/two-dimensional-array-in-c-plus-plus
