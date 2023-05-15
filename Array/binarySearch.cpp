@@ -13,20 +13,21 @@ void binarySearch(int a[], int size, int x)
 {
     int start = 0;
     int end = size - 1;
-    int mid = (start + end) / 2;
-    cout << end << mid;
-    // while (start < end)
-    // {
-    //     if( x == a[mid]){
-    //         cout << "Index of element is: " << mid;
-    //         return;
-    //     }else  if (x > a[mid])
-    //     {
-    //         start = mid;
-    //     } else{
-    //         end = mid;
-    //     }
-    // }
+    int mid = start +( end - start) / 2;
+    
+    while (start <= end)
+    {
+        if( x == a[mid]){
+            cout << "Index of element is: " << mid;
+            return;
+        }else  if (x > a[mid])
+        {
+            start = mid + 1;
+        } else{
+            end = mid - 1;
+        }
+        mid = start + (end - start)/ 2;
+    }
     cout << -1;
     return;
 };
